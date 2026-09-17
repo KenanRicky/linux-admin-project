@@ -1,0 +1,18 @@
+Linux Administration Project
+
+Milestone 1
+
+Hostname:ricky-HP-EliteBook-840-G5
+Username:ricky
+Additional User: webadmin
+Group: webteam
+ricky@ricky-HP-EliteBook-840-G5:~/Desktop/kubeverse/linux-admin-project$ tree
+.
+├── docs
+│   ├── milestone1
+│   ├── milestone2
+│   ├── milestone3
+│   └── milestone4
+├── logs
+├── scripts
+└── site
