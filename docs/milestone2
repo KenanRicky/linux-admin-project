@@ -1,1 +1,27 @@
-file:///home/ricky/Pictures/Screenshots/Screenshot%20from%202026-09-17%2017-35-43.png
+Shell Scripting and Automation
+ Objective
+The objective of Milestone 2 was to create an original shell script that performs a useful
+administrative, operational, or validation task.
+ Script Name
+The script created for this project is:
+syscheck.sh
+The script is designed to perform basic system and NGINX health checks.
+ Script Functionality
+The script checks:
+1. Project directories
+2. Disk usage
+3. Memory usage
+4. NGINX service status
+5. NGINX configuration validity
+The script uses variables to define important paths and uses a loop to check multiple project
+directories.
+Making the Script Executable
+The script was made executable using:
+chmod +x syscheck.sh
+Executing the Script
+The script was executed using:
+./syscheck.sh
+The script successfully performed the intended checks and provided useful information about the
+Linux environment and NGINX service.
+The script demonstrates how repetitive administrative checks can be automated instead of being
+performed manually every time.

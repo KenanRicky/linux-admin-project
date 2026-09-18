@@ -1,0 +1,38 @@
+6.1 Objective
+The objective of Milestone 3 was to install and configure NGINX and deploy a static website
+successfully.
+The milestone requires NGINX installation, correct website file management, configuration
+validation, successful website accessibility, and visible customization.
+6.2 Installing NGINX
+The package list was updated:
+sudo apt update
+NGINX was installed using:
+sudo apt install nginx -y
+ Checking the NGINX Service
+The service status was checked using:
+sudo systemctl status nginx
+ NGINX Configuration Validation
+Before reloading or restarting NGINX, the configuration was tested using:
+sudo nginx -t
+ Website File Deployment
+The static website files were placed in the project website directory:site/
+index.html
+style.css
+The website files were then deployed to the NGINX web root
+sudo cp /index.html /var/www/html/
+sudo cp /style.css /var/www/html/
+Website Permissions
+The NGINX web files were assigned appropriate ownership and permissions:
+sudo chown -R www-data:www-data /var/www/html
+sudo chmod -R 755 /var/www/html
+The configuration was verified using:
+ls -la /var/www/html
+After validating the configuration:
+sudo nginx -t
+NGINX was reloaded:
+sudo systemctl reload nginx
+The service status was checked again:
+sudo systemctl status nginx
+ Website Accessibility Test
+The website was tested locally using:
+http://localhost on the browser
