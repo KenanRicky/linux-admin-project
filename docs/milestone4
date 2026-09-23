@@ -1,15 +1,20 @@
 Objective
 The objective of Milestone 4 was to demonstrate structured troubleshooting by investigating and
 resolving at least three separate issues.
-Issue 1: NGINX was not installed
+Issue 1: NGINX was not installed.
+/home/ricky/Pictures/Screenshots/Screenshot from 2026-09-17 21-52-00.png
 • Problem: When checking the system, NGINX was not available on the Ubuntu
 environment.
 Fix: Installed NGINX using:
+/home/ricky/Pictures/Screenshots/Screenshot from 2026-09-17 21-20-19.png
 sudo systemctl status nginx
+/home/ricky/Pictures/Screenshots/Screenshot from 2026-09-17 22-02-40.png
 Issue 2: Project directories reported as missing by syscheck.sh
 • Problem: When ./syscheck.sh was executed, the script reported:
+/home/ricky/Pictures/Screenshots/Screenshot from 2026-09-17 22-07-29.png
 Fix: Changed the project path in syscheck.sh to determine the project root from the script's location:
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+/home/ricky/Pictures/Screenshots/Screenshot from 2026-09-17 22-10-30.png
 ssue 3: Website files were not yet deployed
 • Problem: After installing NGINX, there was no project website displayed. Only the default
 NGINX page was available.
