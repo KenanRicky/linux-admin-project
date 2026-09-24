@@ -62,20 +62,6 @@ mkdir -p ~/Desktop/kubeverse/linux-admin-project/{scripts,site,docs,logs}
 The directory structure was verified using the command:
 tree
 
-.
-├── docs
-│   ├── milestone1
-│   ├── milestone2
-│   ├── milestone3
-│   └── milestone4
-├── logs
-│   └── report.txt
-├── README.md
-├── scripts
-│   └── syscheck.sh
-└── site
-    ├── index.html
-    └── style.css
 
 # 4.3 Creating an Additional User
 An additional Linux user named webadmin was created:
