@@ -32,21 +32,6 @@ uname -a
 
 ### 3. Project Directory Structure
 The project directory was organized into separate directories for scripts, website files,documentation, and logs.
-The structure used was:
-.
-├── docs
-│   ├── milestone1
-│   ├── milestone2
-│   ├── milestone3
-│   └── milestone4
-├── logs
-│   └── report.txt
-├── README.md
-├── scripts
-│   └── syscheck.sh
-└── site
-    ├── index.html
-    └── style.css
 
 
 ### 4. Milestone 1 : Linux System Setup and Administration
