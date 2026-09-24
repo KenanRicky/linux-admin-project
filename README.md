@@ -24,11 +24,11 @@ The four milestones account for the complete project assessment.
 2.1 System Information
 The project was performed on an Ubuntu Linux workstation.
 System identification Commands used:
-whoami
-hostname
-pwd
-lsb_release -a
-uname -a
+1. whoami
+2. hostname
+3. pwd
+4. lsb_release -a
+5. uname -a
 
 ### 3. Project Directory Structure
 The project directory was organized into separate directories for scripts, website files,documentation, and logs.
